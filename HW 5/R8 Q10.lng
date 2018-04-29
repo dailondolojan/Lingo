@@ -1,0 +1,22 @@
+MIN= @ABS(A-B);
+A=250000*aA+5000*bA+20000*cA+40000*dA+12000*eA+3000*fA+6000*gA+10000*hA+15000*iA+10000*jA+13000*kA;
+B=250000*aB+5000*bB+20000*cB+40000*dB+12000*eB+3000*fB+6000*gB+10000*hB+15000*iB+10000*jB+13000*kB;
+
+aA+aB=1;
+bA+bB=1;
+cA+cB=1;
+dA+dB=1;
+eA+eB=3;
+fA+fB=1;
+gA+gB=1; !gA/gb is the variable for both dogs given to the same so hence the value is multiplied by 2;
+hA+hB=1;
+iA+iB=1;
+jA+jB=1;
+kA+kB=1;
+
+eA<3;
+eB<3;
+
+@bin(aA); @bin(aB); @bin(bA); @bin(bB); @bin(cA); @bin(cB); @bin(dA); @bin(dB); @gin(eA); @gin(eB);
+@bin(fA); @bin(fB); @bin(gA); @bin(gB); @bin(hA); @bin(hB); @bin(iA); @bin(iB); @bin(jA); @bin(jB);
+@bin(kA); @bin(kB);

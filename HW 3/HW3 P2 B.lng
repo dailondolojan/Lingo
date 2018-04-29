@@ -1,0 +1,10 @@
+MAX=AD+BD+CD;
+AB+CB-BC-BD>=0;
+AC+BC-CB-CD>=0;
+AB<=150;
+AC<=370;
+AD<=240;
+BC<=190+150;
+BD<=310;
+CB<=190;
+CD<=280;

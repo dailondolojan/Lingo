@@ -1,0 +1,5 @@
+min=totaltime;
+totaltime=NU*90+(3*NL)*NL;
+160>= NU+NL;
+NU+NL>=160;
+90=3*NL;

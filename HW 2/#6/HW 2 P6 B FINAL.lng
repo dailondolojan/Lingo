@@ -1,0 +1,18 @@
+MIN=100*Ym+(0)*Y_a+(0)*Y_b+40*Ym_a+40*Ym_a;
+!Transpose on B_a;
+1*Ym+(1/50)*Y_a+0*Y_b+0*Ym_a+0*Ym_b>=8;
+
+!Transpose on B_b;
+1*Ym+0*Y_a+(1/30)*Y_b+0*Ym_a+0*Ym_b>=8;
+
+!Transpose on G_a;
+1*Ym+(1/40)*Y_a+0*Y_b+0*Ym_a+0*Ym_b>=12;
+
+!Transpose on G_b;
+1*Ym+0*Y_a+(1/20)*Y_b+0*Ym_a+0*Ym_b>=12;
+
+!Transpose on M_a;
+0*Ym-1*Y_a+0*Y_b+1*Ym_a+0*Ym_b>=100;
+
+!Transpose on M_b;
+0*Ym+0*Y_a-1*Y_b+0*Ym_a+1*Ym_b>=70;

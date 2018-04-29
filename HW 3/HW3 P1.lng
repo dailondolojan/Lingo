@@ -1,0 +1,10 @@
+MAX=AC+BC+DC;
+AB+DB-BC-BD>=0;
+AD+BD-DB-DC>=0;
+AB<=10;
+AC<=35;
+AD<=15;
+BC<=20;
+BD<=25;
+DB<=25;
+DC<=10;

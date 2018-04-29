@@ -1,0 +1,17 @@
+max = Oprofit + Eprofit;
+Oprofit = Oavgpro*Odds;
+Eprofit = Eavgpro*Evens;
+Oavgpro = a+b*Odds;
+12000 = a+b*9;
+5000 = a+b*50;
+Eavgpro = c +d*Evens;
+15000 = c + d*12;
+4000 = c + d*45;
+@free(b);
+@free(d);
+Odds + Evens < 65;
+Odds > 9;
+Odds < 50;
+Evens > 12;
+Evens < 45;
+total = Odds + Evens;

@@ -1,0 +1,7 @@
+MAX=100*YR_o+800*YR_t-600*YC_A-1000*YC_B-800*YC_C;
+1*YR_o+0*YR_t-1*YC_A-0*YC_B-0*YC_C<=12;
+0*YR_o+1*YR_t-1*YC_A-0*YC_B-0*YC_C<=10;
+1*YR_o+0*YR_t-0*YC_A-1*YC_B-0*YC_C<=13;
+0*YR_o+1*YR_t-0*YC_A-1*YC_B-0*YC_C<=11;
+1*YR_o+0*YR_t-0*YC_A-0*YC_B-1*YC_C<=14;
+0*YR_o+1*YR_t-0*YC_A-0*YC_B-1*YC_C<=10;

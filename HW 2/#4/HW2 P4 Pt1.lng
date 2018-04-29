@@ -1,0 +1,6 @@
+MIN=12*CPo_A+10*CPt_A+13*CPo_B+11*CPt_B+14*CPo_C+10*CPt_C;
+CPo_A+CPo_B+CPo_C>=100;
+CPt_A+CPt_B+CPt_C>=800;
+-CPo_A-CPt_A>=-600;
+-CPo_B-CPt_B>=-1000;
+-CPo_C-CPt_C>=-800;

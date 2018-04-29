@@ -1,0 +1,13 @@
+MAX=PA*QA+PC*QC-cost;
+QC = CX+CY;
+QA= AX+AY+AZ;
+QC = 1500000-50*(PC)^3+10*@log(PA);
+QA = 10000 -75*PA +5*(PC)^4;xs
+cost = labor+material;
+labor = 25*(LA+LC);
+LA = 70*AX+72*AY+73*AZ;
+LC = 69*CX+70*CY;
+70*AX+69*CX<=120000;
+72*AY+70*CY<=90000;
+73*AZ<= 110000;
+material = 12000*QC+12700*QA;
